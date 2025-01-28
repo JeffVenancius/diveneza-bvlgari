@@ -145,16 +145,16 @@ function App() {
 
   return (
     <div className="App">
-		<Header
-				headerStyle={size[0] > 1149 ? {backgroundImage: "url(\"./assets/assis/banner 1 landing page 1000x300.png\")", backgroundSize: "contain",aspectRatio: 10/3} : {backgroundImage: "url(\"./assets/assis/banner 1 landing page assis (1000 x 600 px).png\")", backgroundSize: "contain", aspectRatio: 1150/690}}
-		headerIcon= {size[0] > 1149 ? true : false}
-		/>
 		<Ruler
 			items={[
 				{"icon":"./assets/assis/icone1.svg", "iconName": "envio para todo o Brasil", "title": "ENVIO RÁPIDO", "desc": "para todo Brasil"},
 				{"icon":"./assets/assis/icone2.svg", "iconName": "12x no cartão", "title": "EM ATÉ 12x SEM JUROS", "desc": "no cartão"},
 				{"icon":"./assets/assis/icone3.svg", "iconName": "garantia", "title": "GARANTIA", "desc": "de todas as peças"}
 			]}
+		/>
+	  <Header
+				headerStyle={size[0] > 1149 ? {backgroundImage: "url(\"./assets/assis/banner 1 landing page 1000x300.png\")", backgroundSize: "contain",aspectRatio: 10/3} : {backgroundImage: "url(\"./assets/assis/banner 1 landing page assis (1000 x 600 px).png\")", backgroundSize: "contain", aspectRatio: 1150/690}}
+		headerIcon= {size[0] > 1149 ? true : false}
 		/>
 		{categoriesData.map((e) => (
 			<Category
