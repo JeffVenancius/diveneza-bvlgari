@@ -3,7 +3,7 @@
 	display: flex;
 	flex-direction: column;
 	/* align-items: center; */
-	/* margin-bottom: 8px; */
+	margin-bottom: 16px;
 	background-size: contain; 
 	font-family: leagueSpartan;
 }
