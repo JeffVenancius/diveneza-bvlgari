@@ -11,6 +11,7 @@ function Footer() {
 		<h2>Endereço</h2>
 		<div className="paragraphs--footer">
 		<p>RUA PREFEITO CHAGAS, n° 212 - CENTRO</p>
+		<br></br>
 		<h2>Funcionamento</h2>
 		<p>Segunda a Sexta das 9h as 18h</p>
 		<p>Sábado, das 9h as 17h</p>
