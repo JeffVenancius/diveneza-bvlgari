@@ -39,7 +39,7 @@
 	align-content: center;
 }
 .ruler__title {
-	font-size: 18px;
+	font-size: 16px;
 	margin-bottom: 0;
 	margin-right: 5px;
 	height: 100%;
@@ -54,6 +54,12 @@
 	}
 .ruler__item img {
 	height: 100%;
+}
+.ruler__title {
+	font-size: 2vw;
+}
+.ruler__desc {
+	font-size: 1.8vw;
 }
 }
 
