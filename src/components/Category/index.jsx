@@ -91,7 +91,7 @@ function Version(props) {
 
 function Category(props) {
 	console.log(props.titulo)
-	console.log(props.cards.length)
+	console.log(props.cards)
 	if (!props.cards) return <></>
   return (
     <div
