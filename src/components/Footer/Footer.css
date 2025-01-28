@@ -17,9 +17,9 @@
 }
 
 .logo__footer__img {
-	width: 20vw;
+	width: 200px;
 	object-fit: contain;
-	margin-top: 200px;
+	margin-top: 145px;
 }
 
 .footer a {
@@ -32,7 +32,7 @@
 }
 
 .footer--fields {
-	background-color: #f16122;
+	background-color: #333;
 	display: flex;
 	justify-content: space-evenly;
 	align-items: flex-start;
@@ -182,7 +182,7 @@
 		flex-direction:column;
 	}
 	.logo__footer__img {
-		width: 80%;
+		width: 60%;
 		margin: auto;
 		margin-top: 0;
 	}
