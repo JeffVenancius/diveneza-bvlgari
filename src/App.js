@@ -111,17 +111,6 @@ function App() {
 			banner: <Banner3/>
 		},
 		{
-			titulo: "Masculino//Óculos de Grau",
-			imagemCatergoria: "Classica.png",
-			bgCategoria: "#FFF",
-			banner: "",
-			cardStyle: cardsEstilos.transparente,
-			btnBg: "#333",
-			btnFg: paleta.branco,
-			frameColor: paleta.branco,
-			cards: []
-		},
-		{
 			titulo: "Masculino//Óculos de Sol",
 			imagemCatergoria: "Moderna.png",
 			bgCategoria: "#FFF",
