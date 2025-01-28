@@ -27,7 +27,6 @@ function Ruler(props) {
 			{props.items.map(e => {
 				return (
 					<SwiperSlide className="ruler__item">
-						<img src={e.icon} alt={e.iconName} />
 						<p className="ruler__title">{e.title}</p>
 						<p className="ruler__desc">{e.desc}</p>
 					</SwiperSlide>
