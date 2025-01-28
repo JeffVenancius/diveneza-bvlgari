@@ -1,5 +1,5 @@
 .footer {
-	background-color: #f16122;
+	background-color: #333;
 	/* height: 40vh; */
 	width: 100%;
 	color: white;
@@ -108,7 +108,7 @@
 
 .rights__reserved {
 	line-height: 0;
-	background-color: #bb400a;
+	background-color: #000;
 	height: 64px;
 	align-items: center;
 	align-content: center;
