@@ -4,9 +4,9 @@
 	align-items: center;
 	-webkit-justify-content: space-around;
 	-webkit-align-items: center;
-	background-color: #f16122;
-	height: 64px;
-	margin-bottom: 64px;
+	background-color: #333;
+	height: 32px;
+	margin-bottom: 32px;
 }
 
 .slick-slide {
@@ -50,11 +50,10 @@
 @media only screen and (max-width: 887px) {
 	.ruler {
 		margin-bottom: 3vw;
-		height: 10vw;
+		height: 4vw;
 	}
 .ruler__item img {
-	height: 12vw;
-	margin-right: 8px;
+	height: 100%;
 }
 }
 
