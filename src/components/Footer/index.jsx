@@ -11,12 +11,15 @@ function Footer() {
 		<h2>Endereço</h2>
 		<div className="paragraphs--footer">
 		<p>RUA PREFEITO CHAGAS, n° 212 - CENTRO</p>
+		<h2>Funcionamento</h2>
+		<p>Segunda a Sexta das 9h as 18h</p>
+		<p>Sábado, das 9h as 17h</p>
 		</div>
 		<div className="paragraphs--footer--mobile">
 		<p><b>RUA PREFEITO CHAGAS,</b><br></br> n° 212 - <b>CENTRO</b></p>
 		<h2>Funcionamento</h2>
-		<p><b>Segunda a Sexta, das 9h as 18h</b></p>
-		<p><b>Sábado, das 9h as 17h</b></p>			
+		<p>Segunda a Sexta das 9h as 18h</p>
+		<p>Sábado, das 9h as 17h</p>			
 		</div>
 		</div>
 </div>
