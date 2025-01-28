@@ -1,0 +1,116 @@
+.banner {
+	display: flex;
+	align-items: center;
+	justify-content: end;
+	margin: 32px auto;
+}
+/* .banner { */
+/* 	display: flex; */
+/* 	flex-direction: column; */
+/* 	justify-content: center; */
+/* } */
+
+/* .banner p, .banner h1, .banner h2, banner div { */
+/* 	color: white; */
+/* } */
+
+.banner--content {
+	/* margin-left: 20px; */
+	/* display: flex; */
+/* 	margin: auto; */
+/* 	/1* flex-direction: column; *1/ */
+	text-align: left;
+/* 	text-justify: inter-character; */
+/* 	justify-content: space-evenly; */
+}
+
+
+.banner__title {
+	color: white;
+	background-color: #f16122;
+	padding: 6px 6px;
+	padding-top: 4px;
+	display: inline-block;
+	border-radius: 6px;
+	font-size: 22px;
+	margin-bottom: 6px;
+}
+
+.banner__subtitle {
+	font-weight: 600;
+	color: white;
+	text-shadow: 1px 1px 1px #aaa;
+	font-size: 46px;
+}
+
+
+/* .banner p { */
+/* 	font-size: 16px; */
+/* 	font-weight: 400; */
+/* } */
+
+/* .banner--short--title { */
+/* 	font-size: 18px; */
+/* } */
+
+/* .banner--title { */
+/* 	font-size: 44px; */
+/* 	margin: 0; */
+/* } */
+
+
+/* .banner--button { */
+/* 	background-color: white; */
+/* 	margin-top: 16px; */
+/* 	border: none; */
+/* 	width: 200px; */
+/* 	height: 40px; */
+/* 	border-radius: 20px; */
+/* 	font-size: 16px; */
+/* 	opacity: 1; */
+/* 	transition: 0.3s; */
+/* 	cursor: pointer; */
+/* } */
+
+/* .banner--button:hover { */
+/* 	opacity: 0.5; */
+/* } */
+
+
+/* .banner { */
+/* 	text-align: justify; */
+/* 	text-justify: distribute; */
+/* } */
+
+@media only screen and (max-width: 920px) {
+	.banner__title {
+		font-size: 3vw;
+		padding:  0.5vw 1vw;
+		margin-bottom: 0.6vw;
+	}
+	.banner__subtitle {
+		font-size: 4.8vw;
+		text-shadow: 1px 1px 1px #999;
+		margin-bottom: 0;
+	}
+}
+
+
+@media only screen and (min-width: 1400px) {
+	.banner__title {
+		font-size: 1.5vw;
+	}
+	.banner__subtitle {
+		font-size: 3vw;
+	}
+}
+
+
+@media only screen and (min-width: 1625px) and (max-width: 1970px) {
+	.banner__title {
+		font-size: 32px;
+	}
+	.banner__subtitle {
+		font-size: 48px;
+	}
+}
