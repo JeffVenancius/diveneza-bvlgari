@@ -156,7 +156,7 @@ function App() {
 				headerStyle={size[0] > 1149 ? {backgroundImage: "url(\"./assets/assis/banner 1 landing page 1000x300.png\")", backgroundSize: "contain",aspectRatio: 10/3} : {backgroundImage: "url(\"./assets/assis/banner 1 landing page assis (1000 x 600 px).png\")", backgroundSize: "contain", aspectRatio: 1150/690}}
 		headerIcon= {size[0] > 1149 ? true : false}
 		/>
-		{categoriesData.map((e) => (
+		{categoriesData.filter(e => e.cards.length > 0).map((e) => (
 			<Category
 				categoryStyle={ size[0] < minWidth ? {marginRight:"2%", marginLeft:"2%"} : {marginLeft:"auto", marginRight:"auto"}}
 				bg={e.bgCategoria}
