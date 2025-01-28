@@ -90,9 +90,7 @@ function Version(props) {
 }
 
 function Category(props) {
-	if (!props.cards) {
-		console.log(props.titulo)
-		return <></>}
+	if (!props.cards.length) return <></>
   return (
     <div
       id={props.titulo.replaceAll(" ", "_").replaceAll("//","--").replaceAll("Ó","O",)}
