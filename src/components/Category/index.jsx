@@ -90,6 +90,7 @@ function Version(props) {
 }
 
 function Category(props) {
+	console.log(props.cards)
 	if (!props.cards) return <></>
   return (
     <div
