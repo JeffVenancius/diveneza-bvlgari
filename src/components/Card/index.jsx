@@ -60,11 +60,6 @@ function Card(props) {
 				<h2 >{props.description}</h2>
 				<h2>{props.modelo}</h2>
 	  			</div>
-		<div className="card__description_price_container">
-				<h3><span className="compare">De: </span><span className="preco_antigo">{formater.format(props.preco_antigo)}</span></h3>
-			  <h3 className="card--description--price"> <span className="compare">Por: </span>{price_option1}</h3>
-   	                  <p className="card--description--price"> {price_option2}</p>
-		</div>
 				<WppBtn
 					icone={true}
 					mensagem= {props.btnMensagemPrefixo + props.modelo + "."}
