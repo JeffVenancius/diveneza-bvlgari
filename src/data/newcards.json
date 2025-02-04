@@ -1,0 +1,400 @@
+{
+    "Feminino//Óculos de Grau": [
+        {
+            "categoria": "Feminino//Óculos De Grau",
+            "sequencial": 10137719,
+            "marca": "Bvlgari",
+            "description": "Bvlgari",
+            "modelo": "2245-B 2057",
+            "preco_antigo": "3179",
+            "preco": "3179",
+            "discount": 0,
+            "img": [
+                "https://i.ibb.co/rwG2Prx/image.jpg",
+                "https://i.ibb.co/BCP6zfk/image.jpg"
+            ]
+        },
+        {
+            "categoria": "Feminino//Óculos De Grau",
+            "sequencial": 10143623,
+            "marca": "Bvlgari",
+            "description": "Bvlgari",
+            "modelo": "BV50006U 028",
+            "preco_antigo": "3652",
+            "preco": "3652",
+            "discount": 0,
+            "img": [
+                "https://i.ibb.co/2SkLVF6/image.jpg",
+                "https://i.ibb.co/FXpm2f2/image.jpg"
+            ]
+        },
+        {
+            "categoria": "Feminino//Óculos De Grau",
+            "sequencial": 10143651,
+            "marca": "Bvlgari",
+            "description": "Bvlgari",
+            "modelo": "BV50029I 001",
+            "preco_antigo": "4128",
+            "preco": "4128",
+            "discount": 0,
+            "img": [
+                "https://i.ibb.co/KW5LQMm/image.jpg",
+                "https://i.ibb.co/9NNF778/image.jpg"
+            ]
+        },
+        {
+            "categoria": "Feminino//Óculos De Grau",
+            "sequencial": 10143574,
+            "marca": "Bvlgari",
+            "description": "Bvlgari",
+            "modelo": "BV50001I 047",
+            "preco_antigo": "5425",
+            "preco": "5425",
+            "discount": 0,
+            "img": [
+                "https://i.ibb.co/9pLFrZF/image.jpg",
+                "https://i.ibb.co/MG8hRcS/image.jpg"
+            ]
+        },
+        {
+            "categoria": "Feminino//Óculos De Grau",
+            "sequencial": 10143213,
+            "marca": "Bvlgari",
+            "description": "Bvlgari",
+            "modelo": "BV50007U 032",
+            "preco_antigo": "3543",
+            "preco": "3543",
+            "discount": 0,
+            "img": [
+                "https://i.ibb.co/9TJZxd1/image.jpg",
+                "https://i.ibb.co/NxgFRQP/image.jpg"
+            ]
+        },
+        {
+            "categoria": "Feminino//Óculos De Grau",
+            "sequencial": 10143138,
+            "marca": "Bvlgari",
+            "description": "Bvlgari",
+            "modelo": "BV50008I 053",
+            "preco_antigo": "3586",
+            "preco": "3586",
+            "discount": 0,
+            "img": [
+                "https://i.ibb.co/prQZjTv/image.jpg",
+                "https://i.ibb.co/FqCPzDP/image.jpg"
+            ]
+        },
+        {
+            "categoria": "Feminino//Óculos De Grau",
+            "sequencial": 10143208,
+            "marca": "Bvlgari",
+            "description": "Bvlgari",
+            "modelo": "BV50009I 001",
+            "preco_antigo": "3202",
+            "preco": "3202",
+            "discount": 0,
+            "img": [
+                "https://i.ibb.co/F8y1Z2n/image.jpg",
+                "https://i.ibb.co/LSgmf6C/image.jpg"
+            ]
+        },
+        {
+            "categoria": "Feminino//Óculos De Grau",
+            "sequencial": 10143150,
+            "marca": "Bvlgari",
+            "description": "Bvlgari",
+            "modelo": "BV50020I 001",
+            "preco_antigo": "5498",
+            "preco": "5498",
+            "discount": 0,
+            "img": [
+                "https://i.ibb.co/rcQf9YZ/image.jpg",
+                "https://i.ibb.co/LS4w48s/image.jpg"
+            ]
+        },
+        {
+            "categoria": "Feminino//Óculos De Grau",
+            "sequencial": 10143151,
+            "marca": "Bvlgari",
+            "description": "Bvlgari",
+            "modelo": "BV50021I 053",
+            "preco_antigo": "4483",
+            "preco": "4483",
+            "discount": 0,
+            "img": [
+                "https://i.ibb.co/D1cXP2P/image.jpg",
+                "https://i.ibb.co/kQkVdmK/image.jpg"
+            ]
+        },
+        {
+            "categoria": "Feminino//Óculos De Grau",
+            "sequencial": 10143225,
+            "marca": "Bvlgari",
+            "description": "Bvlgari",
+            "modelo": "BV50023I 052",
+            "preco_antigo": "3202",
+            "preco": "3202",
+            "discount": 0,
+            "img": [
+                "https://i.ibb.co/f8XCH4t/image.jpg",
+                "https://i.ibb.co/LdvVDbN/image.jpg"
+            ]
+        }
+    ],
+    "Feminino//Óculos de Sol": [
+        {
+            "categoria": "Feminino//Óculos De Sol",
+            "sequencial": 10143677,
+            "marca": "Bvlgari",
+            "description": "Bvlgari",
+            "modelo": "BV40037I 01A",
+            "preco_antigo": "4320",
+            "preco": "4320",
+            "discount": 0,
+            "img": [
+                "https://i.ibb.co/mDvzVgV/image.jpg",
+                "https://i.ibb.co/30vfN0J/image.jpg"
+            ]
+        },
+        {
+            "categoria": "Feminino//Óculos De Sol",
+            "sequencial": 10143678,
+            "marca": "Bvlgari",
+            "description": "Bvlgari",
+            "modelo": "BV40031I 54F",
+            "preco_antigo": "5320",
+            "preco": "5320",
+            "discount": 0,
+            "img": [
+                "https://i.ibb.co/JFL3rjV/image.jpg",
+                "https://i.ibb.co/LPD4CHr/image.jpg"
+            ]
+        },
+        {
+            "categoria": "Feminino//Óculos De Sol",
+            "sequencial": 10143649,
+            "marca": "Bvlgari",
+            "description": "Bvlgari",
+            "modelo": "BV40033I 01B",
+            "preco_antigo": "4320",
+            "preco": "4320",
+            "discount": 0,
+            "img": [
+                "https://i.ibb.co/ChmZ9cL/image.jpg",
+                "https://i.ibb.co/KWhR7D0/image.jpg"
+            ]
+        },
+        {
+            "categoria": "Feminino//Óculos De Sol",
+            "sequencial": 10143648,
+            "marca": "Bvlgari",
+            "description": "Bvlgari",
+            "modelo": "BV40034U 01A",
+            "preco_antigo": "4586",
+            "preco": "4586",
+            "discount": 0,
+            "img": [
+                "https://i.ibb.co/p33NkGN/image.jpg",
+                "https://i.ibb.co/5YLZ1LF/image.jpg"
+            ]
+        },
+        {
+            "categoria": "Feminino//Óculos De Sol",
+            "sequencial": 10143652,
+            "marca": "Bvlgari",
+            "description": "Bvlgari",
+            "modelo": "BV40038I 52F",
+            "preco_antigo": "4320",
+            "preco": "4320",
+            "discount": 0,
+            "img": [
+                "https://i.ibb.co/rZBBC1n/image.jpg",
+                "https://i.ibb.co/cwZY9Fj/image.jpg"
+            ]
+        },
+        {
+            "categoria": "Feminino//Óculos De Sol",
+            "sequencial": 10143647,
+            "marca": "Bvlgari",
+            "description": "Bvlgari",
+            "modelo": "BV40039I 01A",
+            "preco_antigo": "3456",
+            "preco": "3456",
+            "discount": 0,
+            "img": [
+                "https://i.ibb.co/X7Bdn2J/image.jpg",
+                "https://i.ibb.co/tQD2ZGY/image.jpg"
+            ]
+        },
+        {
+            "categoria": "Feminino//Óculos De Sol",
+            "sequencial": 10143569,
+            "marca": "Bvlgari",
+            "description": "Bvlgari",
+            "modelo": "BV40007I 25A",
+            "preco_antigo": "4485",
+            "preco": "4485",
+            "discount": 0,
+            "img": [
+                "https://i.ibb.co/jDSbddJ/image.jpg",
+                "https://i.ibb.co/j6X3sq8/image.jpg"
+            ]
+        },
+        {
+            "categoria": "Feminino//Óculos De Sol",
+            "sequencial": 10143215,
+            "marca": "Bvlgari",
+            "description": "Bvlgari",
+            "modelo": "BV40001I 54F",
+            "preco_antigo": "5684",
+            "preco": "5684",
+            "discount": 0,
+            "img": [
+                "https://i.ibb.co/wLFvybF/image.jpg",
+                "https://i.ibb.co/cwz6cdm/image.jpg"
+            ]
+        },
+        {
+            "categoria": "Feminino//Óculos De Sol",
+            "sequencial": 10143254,
+            "marca": "Bvlgari",
+            "description": "Bvlgari",
+            "modelo": "BV40002I 01A",
+            "preco_antigo": "6055",
+            "preco": "6055",
+            "discount": 0,
+            "img": [
+                "https://i.ibb.co/rf3Dct9/image.jpg",
+                "https://i.ibb.co/Tkxf29r/image.jpg"
+            ]
+        },
+        {
+            "categoria": "Feminino//Óculos De Sol",
+            "sequencial": 10143258,
+            "marca": "Bvlgari",
+            "description": "Bvlgari",
+            "modelo": "BV40007I 01A",
+            "preco_antigo": "4920",
+            "preco": "4920",
+            "discount": 0,
+            "img": [
+                "https://i.ibb.co/sqvHHt3/image.jpg",
+                "https://i.ibb.co/nn3QSbK/image.jpg"
+            ]
+        },
+        {
+            "categoria": "Feminino//Óculos De Sol",
+            "sequencial": 10143255,
+            "marca": "Bvlgari",
+            "description": "Bvlgari",
+            "modelo": "BV40012U 28A",
+            "preco_antigo": "4087",
+            "preco": "4087",
+            "discount": 0,
+            "img": [
+                "https://i.ibb.co/wwxJMn8/image.jpg",
+                "https://i.ibb.co/rFPvdRw/image.jpg"
+            ]
+        },
+        {
+            "categoria": "Feminino//Óculos De Sol",
+            "sequencial": 10143261,
+            "marca": "Bvlgari",
+            "description": "Bvlgari",
+            "modelo": "BV40012U 33F",
+            "preco_antigo": "4087",
+            "preco": "4087",
+            "discount": 0,
+            "img": [
+                "https://i.ibb.co/58R1s2R/image.jpg",
+                "https://i.ibb.co/QFngYgB/image.jpg"
+            ]
+        },
+        {
+            "categoria": "Feminino//Óculos De Sol",
+            "sequencial": 10143209,
+            "marca": "Bvlgari",
+            "description": "Bvlgari",
+            "modelo": "BV40013I 52E",
+            "preco_antigo": "3694",
+            "preco": "3694",
+            "discount": 0,
+            "img": [
+                "https://i.ibb.co/Bw7L7rH/image.jpg",
+                "https://i.ibb.co/YTxszk4/image.jpg"
+            ]
+        },
+        {
+            "categoria": "Feminino//Óculos De Sol",
+            "sequencial": 10143219,
+            "marca": "Bvlgari",
+            "description": "Bvlgari",
+            "modelo": "BV40014I 01A",
+            "preco_antigo": "3694",
+            "preco": "3694",
+            "discount": 0,
+            "img": [
+                "https://i.ibb.co/DgSkHmH/image.jpg",
+                "https://i.ibb.co/g4hx7xS/image.jpg"
+            ]
+        },
+        {
+            "categoria": "Feminino//Óculos De Sol",
+            "sequencial": 10143155,
+            "marca": "Bvlgari",
+            "description": "Bvlgari",
+            "modelo": "BV40025U 28G",
+            "preco_antigo": "8889",
+            "preco": "8889",
+            "discount": 0,
+            "img": [
+                "https://i.ibb.co/6wQZQqD/image.jpg",
+                "https://i.ibb.co/r4NmS9r/image.jpg"
+            ]
+        },
+        {
+            "categoria": "Feminino//Óculos De Sol",
+            "sequencial": 10143154,
+            "marca": "Bvlgari",
+            "description": "Bvlgari",
+            "modelo": "BV40028I 52H",
+            "preco_antigo": "4369",
+            "preco": "4369",
+            "discount": 0,
+            "img": [
+                "https://i.ibb.co/2hSrxNq/image.jpg",
+                "https://i.ibb.co/Pr01Wr2/image.jpg"
+            ]
+        }
+    ],
+    "Masculino//Óculos de Sol": [
+        {
+            "categoria": "Masculino//Óculos De Sol",
+            "sequencial": 10143232,
+            "marca": "Bvlgari",
+            "description": "Bvlgari",
+            "modelo": "BV40022I 02A",
+            "preco_antigo": "3694",
+            "preco": "3694",
+            "discount": 0,
+            "img": [
+                "https://i.ibb.co/sbZCGyD/image.jpg",
+                "https://i.ibb.co/T0Sj1tL/image.jpg"
+            ]
+        },
+        {
+            "categoria": "Masculino//Óculos De Sol",
+            "sequencial": 10143139,
+            "marca": "Bvlgari",
+            "description": "Bvlgari",
+            "modelo": "BV40023U 02N",
+            "preco_antigo": "4869",
+            "preco": "4869",
+            "discount": 0,
+            "img": [
+                "https://i.ibb.co/f46MHhg/image.jpg",
+                "https://i.ibb.co/Q9JXyMP/image.jpg"
+            ]
+        }
+    ]
+}

@@ -5,7 +5,8 @@
 	/* align-items: center; */
 	margin-bottom: 16px;
 	background-size: contain; 
-	font-family: leagueSpartan;
+	font-family: gilroy;
+	font-weight: 500;
 }
 
 @media only screen and (min-width: 1150px) {
@@ -68,6 +69,53 @@
 	-webkit-align-items: center;
 }
 
+.header-banner div{
+	/* display:none; */
+	margin-left:8.2%;
+	margin-top: -1%;
+	width: 30%;
+	line-height: 1.8rem;
+	line-height: 1.75vw;
+}
+
+.header-banner div img {
+	/* width: 570px; */
+	width: 29.5vw;
+	margin-bottom: -68px;
+}
+.header-banner div p {
+	font-size: 26px;
+	font-size: 1.25vw;
+	color: #fff;
+}
+
+.header-banner div > p {
+	margin-top: 88px;
+	margin-top: 5vw;
+}
+
+.header-banner div p:nth-child(3) {
+	width: 80%;
+	margin-top: 4%;
+}
+
+
+.header-banner div button {
+	margin-top: 5%;
+	width: 42%;
+	background-color: #fff;
+	/* font-size: 32px; */
+	font-size: 1.3vw;
+	/* display: none; */
+	border-radius: 20px;
+	/* height: 40px; */
+	height: 2vw;
+	color: #555;
+}
+
+.header-banner div button {
+	opacity: 1;
+}
 .header__nav {
 	display: flex;
 	justify-content: space-between;
@@ -139,13 +187,30 @@
 	}
 	.header-banner {
 		display: flex;
-		justify-content: flex-end;
-		align-items: flex-end;
-		align-content: flex-end;
-		-webkit-justify-content: flex-end;
-		-webkit-align-items: flex-end;
-		-webkit-align-content: flex-end;
 	}
+	.header-banner div {
+		margin-left: 6%;
+		margin-top: 3%;
+		width: 34%;
+	}
+	.header-banner div img {
+		width: 33.5vw;
+	}
+	.header-banner div > p {
+		margin-top: 64px;
+		line-height: 1.8vw;
+		font-size: 1.5vw;
+	}
+
+
+	.header-banner div button {
+		margin-top: 5%;
+		height: 2.3vw;
+		font-size: 1.5vw;
+		font-weight: 500;
+
+	}
+	
 	.header__promo__text {
 		color: #fff;
 		margin-top: auto;
@@ -167,6 +232,7 @@
 		font-size: 8vw;
 		font-weight: 600;
 	}
+
 	.header__promo__text h2 {
 		font-size: 15vw;
 		font-weight: 600;

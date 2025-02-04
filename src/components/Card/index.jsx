@@ -1,39 +1,28 @@
 import './Card.css'
 import WppBtn from '../Buttons/wppBtn';
 import 'bootstrap/dist/css/bootstrap.css';
-import Carousel from 'react-bootstrap/Carousel';
 
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import { Autoplay } from 'swiper/modules';
-
+import { useState, useEffect } from 'react';
 
 function ImgCarousel(props) {
 	if (typeof props.img !== "string") {
-		return (
-			<Swiper 
-				autoplay={{delay:props.delay, disableOnInteraction: false}}
-				loop={true}
-				modules={[Autoplay]}
-				style={{width:"100%", height:"100%", borderRadius:"50px"}}>
-				{props.img.map(i => {
-					return (
-						<SwiperSlide key={"slideImgCard--" + props.img}>
-							<div style={{ position: "relative"}}>
-							<img class="card__image__custom" key={"imgCollection--" + props.img} src={i} />
-							</div>
-						</SwiperSlide>
-					)
-				})}
-			</Swiper>
-		)
+		return <div class="card__img__colection">{props.img.map(e => <img style={{translate: `${-100 * props.currImg}%`}} alt={e} class="card__image__custom" src={e} />)}</div>
 	} else {
-		return <div style={{ position: "relative"}}><img class="card__image__custom" src={props.img} /></div>
+		return <img alt={props.img} class="card__image__custom" src={props.img} />
 	}
 }
 
 
 function Card(props) {
+	const [currImg, setCurrImg] = useState(0)
+  
+	useEffect(() => {
+		if (props.img === "sting") return
+		const timedOut = setTimeout(() => {setCurrImg(currImg === props.img.length - 1 ? 0 : currImg + 1)}, 4000)
+		return () => clearTimeout(timedOut)
+	},[currImg, props.img])
+
+
 	let formater = new Intl.NumberFormat('pt-BR', {
 		style: "currency",
 		currency: "BRL",
@@ -54,16 +43,16 @@ function Card(props) {
 
   return (
 		<div className="card__custom" style={{...props.propsStyle, display:"flex", justifyContent:"space-between", alignItems:"center"}}>
-			<ImgCarousel img={props.img} frameColor={props.frameColor} delay={props.delay} discount={props.discount}/>
+			<ImgCarousel img={props.img} currImg={currImg} frameColor={props.frameColor} delay={props.delay} discount={props.discount}/>
 			<div className="card--description">
 	  			<div className="card__description-model">
 				<h2 >{props.description}</h2>
 				<h2>{props.modelo}</h2>
 	  			</div>
 				<WppBtn
-					icone={true}
-					mensagem= {props.btnMensagemPrefixo + props.modelo + "."}
-					texto="Comprar"
+					icone={false}
+					mensagem= {props.btnMensagemPrefixo + props.description + ", modelo " + props.modelo + "."}
+					texto="Eu quero!"
 					btnStyle={{...props.btnStyle, width:"80%"}}
 					iconeSize={props.iconeSize}
 				/>

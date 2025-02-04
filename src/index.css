@@ -33,7 +33,21 @@
 	font-style: bold;
 }
 
+@font-face {
+	font-family: 'Gilroy';
+    src: url('../public/fonts/gilroy/Gilroy-Light.ttf') format('truetype');
+	font-weight: 400;
+	font-style: light;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+    src: url('../public/fonts/gilroy/Gilroy-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: medium;
+}
+
 
 body {
-	font-family: Poppins;
+	font-family: Gilroy;
 }

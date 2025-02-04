@@ -168,6 +168,7 @@
 	.paragraphs--footer--mobile p {
 		text-align: center;
 		margin-bottom: 8px;
+		font-size: 4.5vw;
 	}
 	.footer--fields {
 		flex-direction: column;
@@ -206,6 +207,7 @@
 	}
 	.footer h2 {
 		text-align: center;
+		font-size: 7vw;
 	}
 	.f--field {
 		row-gap: unset;
@@ -240,6 +242,18 @@
 	text-align: center;
 	color: white;
 }
+.contato > div > a {
+	line-height: 1.5vw;
+}
+.footer--fields p {
+		font-size: 4.5vw;
+	}
+	.logo__footer {
+		margin-top: 0;
+	}
+	.rights__reserved p {
+		font-size: 3.5vw;
+	}
 }
 
 @media only screen and (max-width:333px) {

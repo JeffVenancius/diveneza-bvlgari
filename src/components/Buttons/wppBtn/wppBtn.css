@@ -2,10 +2,11 @@
     aspect-ratio: 6/1.2;
     border-radius: 8px;
     margin: 0;
+		font-weight: 500;
     }
 @media (max-width: 620px) {
   .wppButton {
-    font-size: calc(6px + 3vw);
+    font-size: calc(6px + 1.8vw);
     aspect-ratio: 5/1;
     border-radius: 3vw;
   }

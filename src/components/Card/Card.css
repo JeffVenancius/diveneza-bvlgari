@@ -8,13 +8,23 @@
 	flex-shrink: 0;
 	/* justify-content: space-between; */
 		aspect-ratio: 265/296;
-		flex-basis: 33.3%;
+		flex-basis: 30%;
+}
+
+.card__img__colection {
+  display: flex;
+	overflow: hidden;
+	max-width: 350px;
+}
+.card__img__colection img {
+	flex: 1 0 100%;
+	transition: translate 1s ease-out;
 }
 
 .card__image__custom {
-	width: 90%;
+	width: 100%;
 	object-fit: cover;
-	aspect-ratio: 1.1/1;
+	aspect-ratio: 1/1;
 	max-width: 350px;
 }
 
@@ -52,7 +62,6 @@
 }
 
 .card--description {
-	margin-top: -36px;
 	text-align: center;
 	width: 100%;
 	max-width: 250px;
@@ -123,7 +132,7 @@
 .card__custom {
 	aspect-ratio: 1/1;
 	margin-bottom: 32px;
-	flex-basis: 50%;
+	flex-basis: 40%;
 }
 .card__description_price_container {
 		/*line-height: 2px;*/

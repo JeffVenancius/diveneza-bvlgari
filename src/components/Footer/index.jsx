@@ -47,7 +47,7 @@ function Footer() {
 
 		</div>
 		<div className="logo__footer footer__block">
-		<img className="logo__footer__img" src="assets/assis/LOGO ASSIS.png" alt="logo ótica assis"/>
+		<img className="logo__footer__img" src="assets/assis/4-2-25/Logo-white.png" alt="logo ótica Diveneza"/>
 		<div className="follow__us__mobile">
 
 		<a className="footer__social footer__fb" href="https://www.facebook.com/oticaassisoficial">

@@ -131,6 +131,7 @@ function App() {
 }, [])
 
 
+	// console.log(categoriesData)
 
   return (
     <div className="App">
@@ -142,7 +143,7 @@ function App() {
 			]}
 		/>
 	  <Header
-				headerStyle={size[0] > 1149 ? {backgroundImage: "url(\"./assets/assis/banner 1 landing page 1000x300.png\")", backgroundSize: "contain",aspectRatio: 10/3} : {backgroundImage: "url(\"./assets/assis/banner 1 landing page assis (1000 x 600 px).png\")", backgroundSize: "contain", aspectRatio: 1150/690}}
+				headerStyle={size[0] > 1149 ? {backgroundImage: "url(\"./assets/assis/4-2-25/banner 2000x600 2.png\")", backgroundSize: "contain",aspectRatio: 10/3} : {backgroundImage: "url(\"./assets/assis/4-2-25/banner 2000x1200 2.png\")", backgroundSize: "contain", aspectRatio: 1150/690}}
 		headerIcon= {size[0] > 1149 ? true : false}
 		/>
 		{categoriesData.map((e) => (
