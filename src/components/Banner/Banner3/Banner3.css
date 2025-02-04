@@ -91,9 +91,15 @@
 	.saiba-mais a {
 		height: 7%;
 		font-size: 1.4vw;
+		padding-top: 2%;
 	}
 }
 
+@media only screen and (max-width: 950px) {
+.saiba-mais a {
+	padding-top: 0;
+}
+}
 
 @media only screen and (min-width: 1625px) and (max-width: 1970px) {
 }
@@ -110,6 +116,11 @@
 	}
 }
 
+@media only screen and (max-width: 482px) {
+	.saiba-mais a {
+		font-size: 1.9vw;
+	}
+}
 
 @media only screen and (max-width: 430px) {
 	.saiba-mais a {
